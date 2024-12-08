@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "node src/menu.js"
+    "start": "node src/menu.js",
+    "uniswapsimulator": "node src/menu.js",
+    "pool-status": "node src/menu.js pool-status",
+    "add-liquidity": "node src/menu.js add-liquidity",
+    "swap": "node src/menu.js swap",
+    "exit": "node src/menu.js exit"
   },
   "keywords": [],
   "type": "module",
